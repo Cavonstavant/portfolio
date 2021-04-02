@@ -39,9 +39,7 @@ const IndexPage = ({ data }) => {
         {/* Articles is populated via Medium RSS Feed fetch */}
         { rssFeed && <Articles /> }
         <About content={data.about.edges} />
-        <Interests content={data.interests.edges} />
-        <Projects content={data.projects.edges} />
-        <Contact content={data.contact.edges} />
+        {/* <Interests content={data.interests.edges} /> */}
       </Layout>
     </GlobalStateProvider>
   );
@@ -72,8 +70,6 @@ export const pageQuery = graphql`{
         frontmatter {
           greetings
           title
-          subtitlePrefix
-          subtitle
           icon {
             childImageSharp {
               gatsbyImageData(width: 60, quality: 90, layout: CONSTRAINED)

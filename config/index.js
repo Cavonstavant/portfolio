@@ -1,14 +1,14 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+  author: "@constantvigneron",
+  siteTitle: "Constant Vigneron portfolio",
+  siteShortTitle: "Constant Vigneron", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
-  siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
+    "CV Constant Vigneron",
+  siteUrl: "https://thankful-tree-053719a03.azurestaticapps.net",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Portfolio", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   
   // -- THEME SETTINGS -----
   colors: {
@@ -41,39 +41,23 @@ module.exports = {
     primary: "Roboto, Arial, sans-serif",
   },
 
-  //-- ARTICLES SECTION SETTINGS -----
-  // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
-  // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
-  rssFeed:
-    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
-
-  shownArticles: 3,
-
   //-- SOCIAL MEDIA SETTINGS -----
   // There are icons available for the following platforms:
   // Medium, GitHub, LinkedIn, XING, Behance, E-Mail
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
-    },
-    {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      url: "https://linkedin.com/in/constant-vigneron",
     },
     {
       name: "Github",
       url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+        "https://github.com/Cavonstavant",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Mail",
+      url: "mailto:constant.vigneron@protonmail.com",
     },
-    // {
-    //   name: "Mail",
-    //   url: "mailto:mail@konstantin.digital",
-    // },
   ],
 
   //-- NAVIGATION SETTINGS -----
@@ -83,10 +67,10 @@ module.exports = {
         name: "About Me",
         url: "/#about",
       },
-      {
-        name: "Features",
-        url: "/#projects",
-      },
+      // {
+      //   name: "Features",
+      //   url: "/#projects",
+      // },
       {
         name: "Contact",
         url: "/#contact",
@@ -95,14 +79,14 @@ module.exports = {
     button: {
       useFileName: true,
       name: "Resume",
-      fileName: "goldenpuppy.pdf", // the file has to be placed inside the static folder at the root level
+      fileName: "curriculum_vitae.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
   },
   footerLinks: [
-    {
-      name: "Imprint",
-      url: "/imprint",
-    },
+    // {
+    //   name: "Imprint",
+    //   url: "/imprint",
+    // },
   ],
 };
