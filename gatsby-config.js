@@ -14,6 +14,7 @@ module.exports = {
     title: siteTitle,
     description: siteDescription,
     siteUrl: siteUrl,
+    'google-site-verification' : "d4qpRHS9Emldqtkrlu13HBBj6C3FqcJnEZKXl9rNbYs"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
